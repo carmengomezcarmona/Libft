@@ -6,7 +6,7 @@
 /*   By: carmgome <carmgome@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/25 12:53:11 by carmgome          #+#    #+#             */
-/*   Updated: 2025/12/06 13:46:09 by carmgome         ###   ########.fr       */
+/*   Updated: 2025/12/12 12:28:32 by carmgome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,16 +27,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s);
 	return (NULL);
 }
-
-/*#include <stdio.h>
-int main (void)
-{
-	const char *desfile;
-	desfile = "Busca aqui tu letra";
-	int letra;
-	letra = 'a';
-	char *direccion;
-	direccion = ft_strchr(desfile, letra);
-	printf ("La letra está en la posición: %p (sitio hexadecimal)\n", direccion);
-	printf ("La letra está en la posición: %s (sitio en la frase)\n", direccion);
-}*/

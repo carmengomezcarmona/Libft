@@ -6,7 +6,7 @@
 /*   By: carmgome <carmgome@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/01 15:07:23 by carmgome          #+#    #+#             */
-/*   Updated: 2025/12/06 14:13:50 by carmgome         ###   ########.fr       */
+/*   Updated: 2025/12/12 12:22:11 by carmgome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,27 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	new[i] = '\0';
 	return (new);
 }
-
-/*
-#include "libft.h"
-#include <stdio.h>
-
-char ft_to_upper(unsigned int i, char c)
-{
-    (void)i;
-    if (c >= 'a' && c <= 'z')
-        return c - 32;
-    return c;
-}
-
-int main(void)
-{
-    char *s = "hola";
-
-    char *res1 = ft_strmapi(s, ft_to_upper);
-    printf("Mayúsculas: %s\n", res1);
-    free(res1);
-
-    return 0;
-}
-*/

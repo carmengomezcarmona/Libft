@@ -6,7 +6,7 @@
 /*   By: carmgome <carmgome@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/25 12:58:27 by carmgome          #+#    #+#             */
-/*   Updated: 2025/12/06 13:56:13 by carmgome         ###   ########.fr       */
+/*   Updated: 2025/12/12 12:21:21 by carmgome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,15 +29,3 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s);
 	return ((char *)last);
 }
-
-/*#include <stdio.h>
-int main (void)
-{	const char *desfile;
-	desfile = "Esto es una pasarela";
-	int modelo;
-	modelo = 'e';
-	char *foto;
-	foto = ft_strrchr (desfile, modelo);
-	printf("ultimo sitio donde esta la modelo es %p, (hexadecimal)\n", foto);
-	printf("ultimo sitio donde esta la modelo es %s, (cadena)\n", foto);
-}*/

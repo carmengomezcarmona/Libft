@@ -6,7 +6,7 @@
 /*   By: carmgome <carmgome@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/01 11:38:37 by carmgome          #+#    #+#             */
-/*   Updated: 2025/12/07 13:15:25 by carmgome         ###   ########.fr       */
+/*   Updated: 2025/12/12 12:44:00 by carmgome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,30 +53,3 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	return (str);
 }
-
-/*
-#include <stdio.h>
-#include <stdlib.h> // Para free y malloc
-
-int main(void)
-{
-    int number;
-	char *resultado;
-
-	number = -12345;
-	resultado = ft_itoa(number);
-	printf("El número %d como string es: %s\n", number, resultado);
-	free(resultado);
-	
-	number = 0;
-	resultado = ft_itoa(number);
-	printf("El número %d como string es: %s\n", number, resultado);
-	free(resultado);
-
-	number = -2147483648;
-	resultado = ft_itoa(number);
-	printf("El número %d como string es: %s\n", number, resultado);
-	free(resultado);	
-
-	return 0;
-}*/

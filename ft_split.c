@@ -6,7 +6,7 @@
 /*   By: carmgome <carmgome@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/30 18:44:29 by carmgome          #+#    #+#             */
-/*   Updated: 2025/12/07 14:04:50 by carmgome         ###   ########.fr       */
+/*   Updated: 2025/12/12 12:29:21 by carmgome         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,32 +84,3 @@ char	**ft_split(const char *s, char c)
 	tab[j] = NULL;
 	return (tab);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-
-int main(void)
-{
-	const char *string;
-	string = "...Hola..mundo..esto..es...un.test...";
-	char delimitador;
-	delimitador = '.';
-	char **resultado;
-	resultado = ft_split(string, delimitador);
-	printf("Resultado de ft_split:\n");
-	int i = 0;
-    while (resultado[i] != NULL)
-    {
-        printf("Libro %d: [%s]\n", i, resultado[i]);
-        i++;
-    }
-		i = 0;
-    while (resultado[i] != NULL)
-    {
-        free(resultado[i]);
-        i++;
-    }
-    free(resultado);
-
-    return (0);
-}*/
