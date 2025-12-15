@@ -16,6 +16,13 @@
 # include <stdlib.h>
 # include <unistd.h>
 
+// List tructure
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}	t_list;
+
 // Function prototypes
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);

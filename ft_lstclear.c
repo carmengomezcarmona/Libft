@@ -16,13 +16,15 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
 	t_list	*cajatemporal;
 
-	cajatemporal = (*lst)->next;
+	
 	if (!lst || !del)
 		return ;
 	while (*lst != NULL)
 	{
-		ft_lstdelone(*lst, del);
-		*lst = cajitatemporal;
+		cajatemporal = (*lst)->next;
+		del((*lst)->content);
+		free(*lst);
+		*lst = cajatemporal;
 	}
 	*lst = NULL;
 }
