@@ -10,7 +10,10 @@
 #                                                                              #
 # **************************************************************************** #
 
+<<<<<<< HEAD
 *Este proyecto ha sido creado como parte del currículo de 42 por carmgome*
+
+=======
 
 # Libft
 
@@ -40,8 +43,6 @@ La mayor fuente de ayuda sin duda es el peer to peer con los compañeros, resolv
 El manual de la terminal (man) creo que ha sido la referencia principal para ir comprendiendo el comportamiento de cada función. Toda la información que tiene el manual, y otras páginas donde explican de forma más visual estos comportamientos cuando con el manual solamente no lo visualizaba.
 Vídeos y tutoriales, como por ejemplo los de CS50 Harvard ayudan bastante a entender la lógica y con ejemplos como muy visualesde punteros y de listas enlazadas.
 El uso de IA para ejemplos más visuales de las funciones ha sido clave en muchas funciones en las cuales no nos bastaba con saber solamente lo que hacía la función y hemos profundizado a base de "dibujitos" y ejemplos realizados por la IA.
-
-
 
 
 
