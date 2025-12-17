@@ -16,7 +16,6 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
 	t_list	*cajatemporal;
 
-	
 	if (!lst || !del)
 		return ;
 	while (*lst != NULL)

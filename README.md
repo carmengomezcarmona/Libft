@@ -10,16 +10,16 @@
 #                                                                              #
 # **************************************************************************** #
 
-*Este proyecto ha sido creado como parte del currículo de 42 por <carmgome>*
+*Este proyecto ha sido creado como parte del currículo de 42 por carmgome*
 
-#Libft
+# Libft
 
--> Descripción <-
+## Descripción
 
 Libft es una librería en C, que es parte del primer proyecto de 42. El objetivo es replicar las funciones básicas de la biblioteca estandar de C y crear otras funciones que pide el subject, que son útiles para manejar cadenas de caracteres, memoria y listas enlazadas entre otras.
 El proyecto permite descubrir como funcionan internamente éstas funciones, y ayuda a reforzar la lógica de programación, el manejo de punteros, estructuras y manejo de listas enlazadas.
 
--> Instrucciones <-
+## Instrucciones
 
 Hay que seguir una serie de indicaciones:
 1. Clonar el repositorio: 
@@ -34,7 +34,7 @@ make fclean
 Recompilar desde cero:
 make re
 
--> Recursos <-
+## Recursos
 
 La mayor fuente de ayuda sin duda es el peer to peer con los compañeros, resolver dudas y compartir ideas es lo mejor de Libft. Las comprobaciones juntos y el ir avanzando poco a poco codo a codo es sin duda lo más gratificante de Libft.
 El manual de la terminal (man) creo que ha sido la referencia principal para ir comprendiendo el comportamiento de cada función. Toda la información que tiene el manual, y otras páginas donde explican de forma más visual estos comportamientos cuando con el manual solamente no lo visualizaba.
@@ -45,16 +45,16 @@ El uso de IA para ejemplos más visuales de las funciones ha sido clave en mucha
 
 
 
-*This project was created as part of the 42 curriculum by <carmgome>*
+*This project was created as part of the 42 curriculum by carmgome*
 
-#Libft
+# Libft
 
--> Description <-
+## Description
 
 Libft is a C library that forms part of the first project at 42. The goal is to replicate basic functions from the C standard library and create additional functions required by the subject, which are useful for handling strings, memory, and linked lists, among others.
 The project allows you to discover how these functions work internally and helps reinforce programming logic, pointers, structures, and linked list management.
 
--> Instructions <-
+## Instructions
 
 You must follow a series of steps:
 1. Clone the repository:
@@ -69,7 +69,7 @@ make fclean
 Recompile from scratch:
 make re
 
--> Resources <-
+## Resources
 
 The biggest source of help is without a doubt the peer-to-peer support with classmates. Solving doubts and sharing ideas is the best part of Libft. Working together, checking each other’s code, and progressing side by side is by far the most rewarding part of the project.
 The terminal manual (man) was the main reference to understand the behavior of each function. All the information it contains, along with other websites that explain things more visually when the manual wasn’t enough, was essential.
